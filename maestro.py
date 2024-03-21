@@ -5,6 +5,25 @@ from rich.console import Console
 from rich.panel import Panel
 from datetime import datetime
 
+# Breaks down an objective into manageable sub-tasks using the Opus model
+
+# Executes each sub-task using the Haiku model
+
+# Provides the Haiku model with memory of previous sub-tasks for context
+
+# Refines the sub-task results into a final output using the Opus model
+
+# Generates a detailed exchange log capturing the entire task breakdown and execution process
+
+# Saves the exchange log to a Markdown file for easy reference
+
+# Utilizes an improved prompt for the Opus model to better assess task completion
+
+# Introduces a specific phrase, "The task is complete:", to indicate when the objective is fully achieved
+
+#pip install anthropic rich
+# replace Anthropic API key with your own
+
 # Set up the Anthropic API client
 client = Anthropic(api_key="")
 
